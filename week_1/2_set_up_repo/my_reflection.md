@@ -30,8 +30,15 @@ The license selection process can be a bit more tricky.  When you select the dro
 
 For more help in picking which license if for you, please refer to the following resource: http://choosealicense.com.
 
+Please note:  If you run into any difficulty while working from the local application, please refer to the installation links listed above for additional assistance.  I will be discussing the Windows version below.
 
+Once you have finalized your intital setup of your repo from GitHub.com, you'll want to access the locally installed GitHub application.  You will need to login where asked and then establish an SSH key association with the device you are working from.  An SSH key is a unique identifier that will establish trust when submitting content from your local installation.  
 
+Now you'll want to locate, in the upper, left hand corner the name of your GitHub account.  There should be two options, "Local" and "GitHub" - select "GitHub".  Your freshly created repo should now be listed here.  Please locate the press the clone button associated with the repo you are looking to pull down locally.  
+
+I really like the idea of Open Source projects.  In an enviornment that is so focused on problem solving and efficiency, having teams of people submit countless solutions via Open Source work can only be a benefit to the average developer.  When reflecting upon the ideals that stem from this style of distribution, I find that I feel very well connected to the larger scene in general.  
+
+Let's all change the world together!
 
 
 
