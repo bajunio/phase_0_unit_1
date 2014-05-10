@@ -15,13 +15,14 @@ var assert = function(test, message, test_number) {
 //The first part asks if it is NOT test then the console should log the parameter test_number plus a string of false.
 //then it should throw a string of ERROR: plus the parameter message.
 	if (!test) {
-		console.log(test_number + ": false");
-		console.log("ERROR: " + message);
+		console.log(test_number + " false");
+		throw "ERROR: " + message;
 	};
 
 //Outside of that if statement you will log to the console the parameter test_number plus the string of true.
 //then return true.
-	console.log(test_number + ": true");
+	console.log(test_number + " true");
+	return true
 
 //close out the assert function.
 };
