@@ -1,20 +1,25 @@
-// I paired [by myself, with:] on this challenge.
+// I was solo on this challenge.
 
 
 
 
 // Pseudocode
-// 
-// 
-// 
-// 
+// SET secret number to 7
+// SET password to 'just open the door'
+// SET allowed in to boolean value 'false'
+// CREATE array members
+  //include "John" as first value
+  //include "Mary" as forth value
+
 
 
 // __________________________________________
 // Write your code below.
 
-
-
+var secretNumber = 7;
+var password = "just open the door";
+var allowedIn = false;
+var members = ["John", "Brain", "Pinky", "Mary"];
 
 
 
@@ -22,17 +27,17 @@
 // __________________________________________
 // Refactored Code: Include a refactored version (or justification of your original code) here. 
 
-
+// Feeling confident that declaring variables is pretty much as refactored as it can get!
 
 
 
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
 // 
-// 
-// 
-// 
-// 
+// This was my first time writing code from tests.  At first I was spinning my wheels getting
+// started as I was not quite sure how to proceed.  I was reminded of other stumblings blocks
+// I've dealt with in the past and just starting pressing buttons.  It's amazing how things 
+// can sometimes come together if you just dive in and start attempting to swim.
 // 
 
 
