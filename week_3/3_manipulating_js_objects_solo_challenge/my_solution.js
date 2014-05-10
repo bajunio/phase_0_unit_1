@@ -49,7 +49,7 @@ var terah = {
     SET property colton within object children under terah and assign value "Colton".
 
 11. Add a children property to adam and assign it the value of terah children.
-    CREATE new object within adam named children and equate it with terah's children.
+    CREATE new property within adam named children and equate it with terah's children.
 
 */
 
@@ -84,11 +84,11 @@ terah.children.colton.name = "Colton";
 // __________________________________________
 // Reflection: Use the reflection guidelines
 // 
-// 
-// 
-// 
-// 
-// 
+// I feel like I was able to brute force my way through this challenge.  I'm sure there is a better way to refactor
+// my code further.  A pairing session with one of my peers would really help me to gain more traction on working 
+// with objects in JS.  I was stuck for a long while getting the children object setup correctly.  I had to adjust 
+// my pcode and draw a diagram before I was able to put it together.  Really wish I could figure out that function
+// but sadly I have much more work to do.
 
 
 // __________________________________________
