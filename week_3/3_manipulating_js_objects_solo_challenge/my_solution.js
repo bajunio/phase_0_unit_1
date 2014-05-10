@@ -16,28 +16,38 @@ var terah = {
 1. Define a variable adam and use object literal notation to assign this variable 
    the value of a JavaScript Object object with no properties.
     SET adam equal to a new object.
+
 2. Give adam a name property with the value "Adam".
     SET property name in adam and assign "Adam".
+
 3. Add a spouse property to terah and assign it the value of adam.
     SET property spouse in terah and assign adam.
+
 4. Change the value of the terah weight property to 125.
     Access the property weight in terah and assign 125
+
 5. Remove the eyeColor property from terah.
     DELETE tarah.eyeColor to remove the property.
+
 6. Add a spouse property to adam and assign it the value of terah.
     SET property spouse in adam and assign terah.
+
 7. Add a children property to terah and and use object literal notation to assign 
    this variable the value of a JavaScript Object object with no properties
     CREATE new object within terah object named children using new Object().
+
 8. Add a carson property to the value of the terah children property and assign it 
   the value of an object with the property name with a value of "Carson".
     SET property carson within object children under terah and assign value "Carson".
+
 9. Add a carter property to the value of the terah children property and assign it 
    the value of an object with the property name with a value of "Carter".
     SET property carter within object children under terah and assign value "Carter".
+
 10. Add a colton property to the value of the terah children property and assign it 
     the value of an object with the property name with a value of "Colton".
     SET property colton within object children under terah and assign value "Colton".
+
 11. Add a children property to adam and assign it the value of terah children.
     CREATE new object within adam named children and equate it with terah's children.
 
@@ -46,14 +56,29 @@ var terah = {
 // __________________________________________
 // Write your code below.
 
-var adam = new Object();
-adam.name = "Adam";
+var adam = {
+  name:"Adam",
+  spouse:terah,
+};
+
 terah.spouse = adam;
 terah.weight = 125;
 delete terah.eyeColor;
-adam.spouse = terah;
-terah.children = new Object("carson");
-console.log(terah);
+
+terah.children = {};
+adam.children = terah.children;
+
+// There has to be a function I can write to clean this up...  Bang'n my head on it!
+
+terah.children.carson = {};
+terah.children.carson.name = "Carson";
+
+terah.children.carter = {};
+terah.children.carter.name = "Carter";
+
+terah.children.colton = {};
+terah.children.colton.name = "Colton";
+
 
 
 // __________________________________________
