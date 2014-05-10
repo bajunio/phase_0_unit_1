@@ -46,10 +46,13 @@ var terah = {
 // __________________________________________
 // Write your code below.
 
-
-
-
-
+var adam = new Object();
+adam.name = "Adam";
+terah.spouse = adam;
+terah.weight = 125;
+delete terah.eyeColor;
+adam.spouse = terah;
+terah.children = new Object("carson");
 
 
 
