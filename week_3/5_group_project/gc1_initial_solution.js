@@ -32,55 +32,91 @@ var assert = function(test, message, test_number) {
 //First parameter should be sum instanceof Function in parenthases.
 //The second parameter should a string saying sum should be a Function.
 //The third parameter should be a string saying 1. and a space.
-assert((sum instanceof Function), "Sum should be a Function.", "1 ");
+assert(
+	(sum instanceof Function), 
+	"Sum should be a Function.", 
+	"1 "
+);
 
 //Second test - call assert filling in the parameters
 //First parameter should be sum with parameter of oddLengthArray being equal to the number 27.
 //Second parameter should be the string sum should return the sum of all elements in an array with an odd length.
 //Third parameter should be a string with 2. and a space
-assert((sum oddLengthArray === 27), "Sum should return the sum of all elements in an array with an odd length.", "2 ");
+assert(
+	sum(oddLengthArray === 27),
+	"Sum should return the sum of all elements in an array with an odd length.",
+	"2 "
+);
 
 //Third test- call assert ect
 //First parameter is sum with parameter of evenLengthArray that is equal to 43
 //Second parameter is a string of sum should return the sum of all elements in an array with an even length.
 //Third parameter is string 3. with space
-assert((sum evenLengthArray === 43), "Sum should return the sum of all elements in an array with an even lenth", "3 ");
+assert(
+	sum(evenLengthArray === 43),
+	"Sum should return the sum of all elements in an array with an even lenth",
+	"3 "
+);
 
 //Fourth test- call assert testing for mean
 //First parameter in parenthases is mean instanceof Function
 //Second parameter is a string of mean should be a Function.
 //Third parameter is string 4. with space
-assert((mean instanceof Function), "Mean should be a Function.", "4 ");
+assert(
+	(mean instanceof Function),
+	"Mean should be a Function.",
+	"4 "
+);
 
 //Fifth test - call assert
 //First parameter is mean with a parameter of oddLengthArray that is equal to 3.857142857142857
 //Second parameter is a string of mean should return the average of all elements in an array with an odd length.
 //Third parameter is string 5. with space
-assert((mean oddLengthArray === 3.857142857142857), "Mean should return the average of all elements in an array with an odd lenth", "5 ");
+assert(
+	mean(oddLengthArray === 3.857142857142857),
+	"Mean should return the average of all elements in an array with an odd lenth",
+	"5 "
+);
 
 //Sixth test - 
 //First parameter is mean with a parameter of evenLengthArray that is equal to 5.375
 //Second parameter is a string of mean should return the average of all elements in an array with an even length.
 //Third parameter is string 6. with space
-assert((mean evenLengthArray === 5.375), "Mean should return the average of all elements in an array with an even length", "6 ");
+assert(
+	mean(evenLengthArray === 5.375),
+	"Mean should return the average of all elements in an array with an even length",
+	"6 "
+);
 
 //Seventh test - call assert testing for median
 //First parameter in parenthases is median instanceof Function
 //Second parameter is a string of median should be a Function
 //Third parameter is string 7. with space
-assert((median instanceof Function), "Median should be a Function", "7 ");
+assert(
+	(median instanceof Function),
+	"Median should be a Function",
+	"7 "
+);
 
 //Eighth test-
 //First parameter is median with a parameter of oddLengthArray that is equal to 4
 //Second parameter is a string of median should return the median value of all elements in an array with an odd length.
 //Third parameter is string 8. with space
-assert((median oddLengthArray === 4), "Median should return the median value of all elements in an array with an odd lenth", "8 ");
+assert(
+	median(oddLengthArray === 4),
+	"Median should return the median value of all elements in an array with an odd lenth",
+	"8 "
+);
 
 //Ninth test- 
 //First parameter is median with a parameter of evenLengthArray that is equal to 5.5
 //Second parameter is string of median should return the median value of all elements in an array with an even length
 //Third parameter is 9. with space
-assert((median evenLengthArray === 5.5), "Median should return the median value of all elements in an array with an even lenth", "9 ");
+assert(
+	median(evenLengthArray === 5.5),
+	"Median should return the median value of all elements in an array with an even lenth",
+	"9 "
+);
 
 //PHEW -Allison
 //INDEED! -Brian
