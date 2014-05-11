@@ -68,3 +68,12 @@ var getInfo = function(name) {
 
 
 //  Your Reflection:
+/*
+This was my first GPS session and I was quite happy with the outcome.  At first I was intimdated by the prospect of having an 
+instructor oversee a session I was having with a peer.  But she was so supportive and only chimed in when she felt we could 
+benefit from a link or little nudge.  We were able to complete the challenge in the alloted hour of time.  After that we moved
+on to idle chit-chat for another 45 mins discussing our hopes and dreams.  Super fun!
+
+I need to continue to solidify my knowledge of object manipulation in JS.  For now I feel I have the concept down and just need
+to practice my syntax until my fingers just do it for me.  : )
+*/
