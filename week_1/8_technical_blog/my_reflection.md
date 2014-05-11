@@ -1,0 +1,1 @@
+my reflection for week 1 tech blog
